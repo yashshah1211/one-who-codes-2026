@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101614" />
+  <meta name="description" content="Yash Shah — a Mumbai-based developer building tools that make complex systems easier to use, debug, and trust. Explore a field guide to selected work." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Yash Shah — The Build Log" />
+  <meta property="og:description" content="A portfolio of shipped products, interactive systems, debugging tools, and evidence-led engineering." />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+  <title>Yash Shah — The Build Log</title>
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to selected work</a>
+  <div class="screen-grain" aria-hidden="true"></div>
+  <header class="topbar shell">
+    <a href="#top" class="brand" aria-label="Yash Shah, back to top"><span class="brand-symbol" aria-hidden="true">Y<span class="brand-slash">/</span>S</span><span class="brand-wordmark">THE BUILD LOG <small>© 2026</small></span></a>
+    <nav aria-label="Main navigation"><a href="#work">Selected work</a><a href="#principles">Principles</a><a href="#contact" class="nav-contact">Let's connect <span aria-hidden="true">↗</span></a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-topline"><span class="eyebrow"><span class="status-pulse" aria-hidden="true"></span> BUILDER / SOFTWARE ENGINEERING / MUMBAI</span><span class="document-id">FIELD NOTES · VOL. 001</span></div>
+      <h1 id="hero-title">GOOD SYSTEMS<br /><span class="accent-word">MAKE</span> SENSE<span class="hero-period">.</span></h1>
+      <div class="hero-bottom">
+        <p class="hero-lede">I'm <strong>Yash Shah</strong>. I build products at the intersection of <em>human behavior</em> and <em>complex software</em> — then make the complicated parts feel simple.</p>
+        <a class="circular-cta" href="#work" aria-label="Explore my selected work"><span>EXPLORE<br />THE WORK</span><span class="cta-arrow" aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-footer"><span>RESEARCH → BUILD → VERIFY → SHIP</span><span>SCROLL TO INVESTIGATE <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section id="work" class="work-section shell" aria-labelledby="work-title">
+      <div class="section-heading"><div><span class="eyebrow accent-label">01 / CASE FILES</span><h2 id="work-title">Selected work<span class="title-dot">.</span></h2></div><p>Not just screenshots. Every project has a problem, a decision, and something that actually works.</p></div>
+      <div class="filter-bar" role="group" aria-label="Filter projects"><span class="filter-label">FILTER THE ARCHIVE</span><div class="filter-options"><button class="chip is-selected" type="button" data-filter="all" aria-pressed="true">All <span>06</span></button><button class="chip" type="button" data-filter="product" aria-pressed="false">Product</button><button class="chip" type="button" data-filter="systems" aria-pressed="false">Systems</button><button class="chip" type="button" data-filter="ai" aria-pressed="false">AI &amp; data</button></div></div>
+      <p class="sr-only" id="filter-announcement" aria-live="polite"></p>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card hero-project" data-category="product" data-id="hackermate" tabindex="-1">
+          <div class="card-visual visual-hackermate" aria-hidden="true"><div class="hm-grid"><div class="hm-node hm-node-a">{dev}</div><div class="hm-line"></div><div class="hm-node hm-node-b">{design}</div><div class="hm-node hm-node-c">{ship}</div></div><span class="visual-caption">FIND YOUR PEOPLE / BUILD SOMETHING BIGGER</span></div>
+          <div class="card-meta"><span>01 / PRODUCT · FOUNDER</span><span>LIVE PLATFORM</span></div><h3>HackerMate<span class="card-arrow" aria-hidden="true">↗</span></h3><p>A team operating system for hackathons — from discovering collaborators to organizing the actual build.</p><div class="card-bottom"><span>Next.js · TypeScript · Supabase</span><button type="button" data-open="hackermate" aria-label="View HackerMate case file">OPEN CASE <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="systems" data-id="parallax">
+          <div class="card-visual visual-parallax" aria-hidden="true"><div class="parallax-world left-world">A</div><div class="parallax-beam"></div><div class="parallax-world right-world">B</div><span class="visual-caption">TWO STREAMS · ONE SHARED UNIVERSE</span></div>
+          <div class="card-meta"><span>02 / INTERACTIVE SYSTEM</span><span>DEMO AVAILABLE</span></div><h3>PARALLAX<span class="card-arrow" aria-hidden="true">↗</span></h3><p>Two independent Twitch communities cooperate inside one synchronized sci-fi game.</p><div class="card-bottom"><span>Node.js · Twitch EventSub · SSE</span><button type="button" data-open="parallax" aria-label="View PARALLAX case file">OPEN CASE <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="ai product" data-id="insightflow">
+          <div class="card-visual visual-insight" aria-hidden="true"><div class="insight-bars"><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="insight-label">SIGNAL ≠ NOISE</div><span class="visual-caption">FROM FEEDBACK TO TRACEABLE DECISIONS</span></div>
+          <div class="card-meta"><span>03 / DATA PRODUCT</span><span>LIVE DEMO</span></div><h3>InsightFlow<span class="card-arrow" aria-hidden="true">↗</span></h3><p>Evidence-first customer feedback analysis that makes assumptions, uncertainty and priorities visible.</p><div class="card-bottom"><span>React · Next.js · Data integrity</span><button type="button" data-open="insightflow" aria-label="View InsightFlow case file">OPEN CASE <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="systems" data-id="causalcut">
+          <div class="card-visual visual-causal" aria-hidden="true"><div class="trace-row">01 <span class="trace-ok">●</span> AUTHORIZED</div><div class="trace-row">02 <span class="trace-ok">●</span> CAPTURED</div><div class="trace-row muted-row">03 <span class="trace-x">×</span> DUPLICATE</div><div class="trace-row last-row">04 <span class="trace-bad">●</span> INVARIANT FAILED</div><span class="visual-caption">MINIMIZE THE INCIDENT, KEEP THE EVIDENCE</span></div>
+          <div class="card-meta"><span>04 / DEVELOPER TOOL</span><span>OPEN SOURCE</span></div><h3>CausalCut<span class="card-arrow" aria-hidden="true">↗</span></h3><p>Reduce an incident trace to a smaller reproducing case, without claiming to replay a production system.</p><div class="card-bottom"><span>TypeScript · Trace replay · NDJSON</span><button type="button" data-open="causalcut" aria-label="View CausalCut case file">OPEN CASE <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="systems" data-id="linksentry">
+          <div class="card-visual visual-sentry" aria-hidden="true"><div class="url-list"><div><span class="url-dot green-dot"></span>200 OK</div><div><span class="url-dot amber-dot"></span>301 REDIRECT</div><div><span class="url-dot red-dot"></span>404 BROKEN</div></div><span class="visual-caption">CHECK LINKS, NOT ASSUMPTIONS</span></div>
+          <div class="card-meta"><span>05 / DEV TOOL</span><span>OPEN SOURCE</span></div><h3>LinkSentry<span class="card-arrow" aria-hidden="true">↗</span></h3><p>A local Markdown link auditor with normalization, deduplication and concurrency.</p><div class="card-bottom"><span>Python · Flask · Concurrent I/O</span><button type="button" data-open="linksentry" aria-label="View LinkSentry case file">OPEN CASE <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="ai product" data-id="learnflow">
+          <div class="card-visual visual-learnflow" aria-hidden="true"><div class="learn-box">Q<span class="learn-small">→</span>A <span class="learn-caret">↗</span></div><div class="learn-sub">MATERIAL → PRACTICE → INSIGHT</div><span class="visual-caption">MAKING LEARNING MORE ACTIVE</span></div>
+          <div class="card-meta"><span>06 / AI LEARNING</span><span>SOURCE AVAILABLE</span></div><h3>LearnFlow AI<span class="card-arrow" aria-hidden="true">↗</span></h3><p>Transform study material into quizzes, flashcards and personalized practice.</p><div class="card-bottom"><span>Python · FastAPI · AI</span><button type="button" data-open="learnflow" aria-label="View LearnFlow AI case file">OPEN CASE <span aria-hidden="true">↗</span></button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="lab-section" aria-labelledby="lab-title">
+      <div class="shell lab-layout"><div class="lab-intro"><span class="eyebrow accent-label">02 / INTERACTIVE NOTEBOOK</span><h2 id="lab-title">Small details.<br /><em>Big consequences.</em></h2><p>Here's a tiny, entirely local illustration of the kind of systems questions I enjoy: how the order of events changes what a system knows.</p><p class="lab-disclaimer">Illustrative portfolio interaction, not a live product or simulation of a real payment system.</p></div><div class="lab-window" id="lab-window"><div class="window-top"><div class="window-buttons" aria-hidden="true"><span></span><span></span><span></span></div><span>event-log / interactive</span><span>LOCAL · NO SERVER</span></div><div class="window-body"><p class="terminal-prompt">$ inspect --event-sequence</p><p class="terminal-description">Select a step to inspect how state changes.</p><div class="step-buttons" role="group" aria-label="Inspect event"><button type="button" data-step="0" class="active-step" aria-pressed="true">01 / REQUEST</button><button type="button" data-step="1" aria-pressed="false">02 / COMMIT</button><button type="button" data-step="2" aria-pressed="false">03 / RETRY</button></div><div class="state-output" aria-live="polite"><span class="state-tag" id="state-tag">REQUESTED</span><strong id="state-title">A new request arrives.</strong><p id="state-description">An operation is requested. Nothing durable has been recorded yet.</p><div class="state-mini"><span>OPERATIONS</span><strong id="state-ops">0</strong><span>ACCEPTED EFFECTS</span><strong id="state-effects">0</strong></div></div></div></div></div>
+    </section>
+
+    <section id="principles" class="principles-section shell" aria-labelledby="principles-title"><div class="section-heading"><div><span class="eyebrow accent-label">03 / HOW I THINK</span><h2 id="principles-title">Build principles<span class="title-dot">.</span></h2></div><p>The decisions behind the screenshots matter as much as the screenshots themselves.</p></div><div class="principles-grid"><article><span>01</span><h3>Evidence before confidence.</h3><p>State what a system actually proves. Keep synthetic examples separate from production claims.</p></article><article><span>02</span><h3>Design for the edge cases.</h3><p>Success paths are table stakes. Duplicates, retries, failure recovery and accessibility deserve equal attention.</p></article><article><span>03</span><h3>Make complexity legible.</h3><p>Great interfaces reveal just enough of the underlying system for a user to make the next good decision.</p></article></div></section>
+
+    <section class="timeline-section shell" aria-labelledby="timeline-title"><div class="timeline-title"><span class="eyebrow accent-label">04 / THE THREAD</span><h2 id="timeline-title">A pattern of building<span class="title-dot">.</span></h2></div><div class="timeline"><div class="timeline-item"><span class="timeline-mark">01</span><div><h3>Start with a real frustration.</h3><p>Finding trustworthy teammates, interpreting noisy feedback, reducing a failing event log.</p></div></div><div class="timeline-item"><span class="timeline-mark">02</span><div><h3>Ship something inspectable.</h3><p>A working interface, a reproducible example, source code, or an honest demonstration.</p></div></div><div class="timeline-item"><span class="timeline-mark">03</span><div><h3>Make the limits explicit.</h3><p>Document what was tested, what was simulated and what still needs independent validation.</p></div></div></div></section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title"><div class="shell contact-content"><span class="eyebrow">05 / NEXT CONVERSATION</span><h2 id="contact-title">LET'S MAKE<br /><span>IT WORK.</span></h2><div class="contact-bottom"><p>Have a difficult workflow, an interesting system, or a problem worth building around? I'd like to hear about it.</p><div class="contact-links"><a href="https://github.com/yashshah1211" target="_blank" rel="noopener noreferrer">GITHUB <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/yash-shah-957932384" target="_blank" rel="noopener noreferrer">LINKEDIN <span aria-hidden="true">↗</span></a><a href="https://hackermate.in" target="_blank" rel="noopener noreferrer">HACKERMATE <span aria-hidden="true">↗</span></a></div></div><div class="footerline"><span>YASH SHAH / SOFTWARE &amp; SYSTEMS</span><a href="#top">BACK TO TOP ↑</a><span>DESIGNED FOR THE WEB · 2026</span></div></div></section>
+  </main>
+  <dialog class="case-dialog" id="case-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><div class="dialog-top"><span id="dialog-index" class="eyebrow">CASE FILE</span><button id="dialog-close" class="close-button" type="button" aria-label="Close case file">×</button></div><div class="dialog-content"><span id="dialog-type" class="dialog-type"></span><h2 id="dialog-title"></h2><p id="dialog-summary" class="dialog-summary"></p><div class="case-facts"><div><span>THE PROBLEM</span><p id="dialog-problem"></p></div><div><span>WHAT I BUILT</span><p id="dialog-solution"></p></div><div><span>HONEST SCOPE</span><p id="dialog-scope"></p></div></div><div class="dialog-tags" id="dialog-tags"></div><div class="dialog-links" id="dialog-links"></div></div></div></dialog>
+</body>
+</html>
